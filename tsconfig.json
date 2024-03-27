@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/landing-page/components/Navbar/TailwindNav.jsx",
+    "components/solutions/ModalVideo.jsx",
+    "components/app-ui/flow-editor/old/messages/Toogle.jsx",
+    "components/SelectCountry.jsx",
+    "components/ModalVideo1.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
